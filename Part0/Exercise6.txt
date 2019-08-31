@@ -1,0 +1,14 @@
+title New Notes SPA
+
+note over browser
+when the save button is clicked the bowser uses the js obtained in GET /spa
+to use an event handler that creates the new note
+, adds it to the notes list, rerenders the note list on the page and sends
+the new note to the server.
+end note
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over server
+Responds HTTP 201, no redirect.
+end note
